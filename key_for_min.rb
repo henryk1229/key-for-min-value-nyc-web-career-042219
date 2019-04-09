@@ -11,6 +11,7 @@ def key_for_min_value(name_hash)
         i = 0
         if value < i 
           winner = key
+          winner
         else
           i += 1 
         end
