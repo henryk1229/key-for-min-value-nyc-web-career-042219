@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     nil 
   else 
     winner = ""
-    until winner != "" do 
+    while winner == "" do 
       i = 0 
       name_hash.collect do |key, value|
         value < i ? winner = key : i += 1 
