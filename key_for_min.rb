@@ -6,16 +6,4 @@ def key_for_min_value(name_hash)
     nil 
   else 
     winner = ""
-    until winner != "" do 
-      name_hash.each do |key, value|
-        i = 0
-        if value < i 
-          winner = key
-        else
-          i += 1 
-        end
-      end
-    end
-  end
-  winner
-end
+    
