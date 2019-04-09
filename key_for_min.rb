@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     until winner != "" do 
       name_hash.collect do |key, value|
         i = 0
-        if value < i 
+        if value == i 
           winner = key
         else
           i += 1 
